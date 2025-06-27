@@ -1,0 +1,124 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  
+}
+.navbar
+{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  position: fixed;
+  background-color:white;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+
+}
+.navbar h3{
+    font-family: "Savate", sans-serif;
+    font-size: 25px;
+    color:#6a0dad;
+}
+.navbar button{
+  width: 100px;
+  background-color:rgb(249, 199, 0);
+  color:black;
+  font-family: "Alegreya", serif;
+  font-weight: bolder;
+  font-size: larger;
+  margin: 1px;
+  border:none;
+  border-radius: 20px;
+
+}
+.card
+{
+  width:20%;
+  
+  border: 1px solid rgb(92, 4, 100);
+  border-radius: 20px;
+  padding: 7px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(251, 249, 252, 0.767);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card img{
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+}
+section
+{
+  display: flex;
+  background: linear-gradient(to right, #fff203, #6a0dad);
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 35px;
+}
+section div
+{
+  width: 50%;
+  margin-top: 10px;
+  padding: 60px;
+font-family: "Dancing Script", cursive;
+ font-weight:bolder;
+ font-size: 45px;
+ color:#6a0dad;
+  
+}
+section button,.card button{
+  background-color: #6a0dad;
+  color: #fcee09;
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+  margin: 5px;
+  
+}
+footer{
+  background-color:rgb(249, 199, 0) ;
+  text-align: center;
+  font-weight: bold;
+  height: 30px;
+  padding: 4px;
+}
+.error
+{
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+@media (max-width: 768px) {
+    .card {
+      width: 40%;
+      margin: 10px;
+     
+    }
+    section div
+    {
+      padding: 15px;
+      font-size: 35px;
+    }
+    section img
+    {
+      width: 60%;
+      height: 80%;
+    }
+  }
+  .search
+  {
+    width: 40%;
+    outline: none;
+    border: rgb(78, 5, 107) 2px solid;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }

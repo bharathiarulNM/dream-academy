@@ -103,12 +103,13 @@ footer{
     }
     section div
     {
-      padding: 10px;
+      padding: 5px;
       font-size: 20px;
+      width:60%
     }
     section img
     {
-      width: 50%;
+      width: 40%;
       height: 60%;
     }
   }

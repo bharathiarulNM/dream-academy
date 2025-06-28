@@ -103,13 +103,13 @@ footer{
     }
     section div
     {
-      padding: 15px;
-      font-size: 35px;
+      padding: 10px;
+      font-size: 20px;
     }
     section img
     {
-      width: 60%;
-      height: 80%;
+      width: 50%;
+      height: 60%;
     }
   }
   .search
